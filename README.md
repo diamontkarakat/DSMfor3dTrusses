@@ -1,6 +1,6 @@
 # DSMfor3dTrusses
+![MergedImages](https://github.com/diamontkarakat/DSMfor3dTrusses/assets/72194340/b765aa1b-1b95-4b08-b047-2e517538540b)
 
-![942Bar3DView](https://github.com/diamontkarakat/DSMfor3dTrusses/assets/72194340/d5c393b1-600f-491d-8baa-771c2850c571)
 
 MatLab code to solve 3D Trusses with Direct Stiffness Method
 The code in MatLab implements the direct stinffnes method for 3D trusses. It consists of a function that implements the method and a function that plot the truss and its deformed shape.
@@ -36,6 +36,33 @@ Young Module for each Element T.E=[200e9;200e9;200e9;200e9;]
 Supports Matrix [2 1 1 1;3 1 1 1;4 1 1 1;5 1 1 1;]; ( Node ID, degree of freedom for x direcory =1 (fix),, degree of freedom for y direcory =1 (fix), degree of freedom for z direcory =1 (fix) )
 
 T.ExternalForces = [1, 60000, -80000,0;]; ( Node ID, force in x direcory =1 (fx), force in y direcory =1 (fy), force inr z direcory =1 (fz) )
+
+
+
+RESULTS
+
+Script returns a structural array Tr with the results of simulation
+
+Tr.elementStress is the stress Matrix for each element
+
+Tr.elementForce is the axial force Matrix for each element
+
+Tr.elementElohgation is the elongation Matrix for each element
+
+Tr.Reactions is the reaction force for each support
+
+Tr.U is the displacement matrix for each degree of freedome
+
+Tr.F is the force matrix for each degree of freedome
+
+Also at the Tr structural array there are all the input data for  plotting or post production
+
+
+
+
+
+
+
 
 
 

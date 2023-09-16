@@ -1,4 +1,7 @@
 # DSMfor3dTrusses
+![942BarsTruss](https://github.com/diamontkarakat/DSMfor3dTrusses/assets/72194340/b916d17d-f298-4ebc-aba9-e30998f9ea2f)
+
+
 MatLab code to solve 3D Trusses with Direct Stiffness Method
 The code in MatLab implements the direct stinffnes method for 3D trusses. It consists of a function that implements the method and a function that lpot the truss and its deformed shape.
 
